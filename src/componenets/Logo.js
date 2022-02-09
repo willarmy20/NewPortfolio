@@ -1,9 +1,9 @@
 import React from 'react';
 import {Logo} from '../styledComponets/LogoStyle';
 
-const LogoStyle = () => {
+const LogoStyle = (props) => {
   return (
-  <Logo>
+  <Logo color={props.theme}>
       CL
   </Logo>
   )

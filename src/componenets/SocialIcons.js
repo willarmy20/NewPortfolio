@@ -1,23 +1,22 @@
 import React from 'react';
-import { FacebookIcon, GitHubIcon, Icons, InstagramIcon, Line } from '../styledComponets/SocialIconsStyle';
+import { Icons, FacebookIcon, GitHubIcon, InstagramIcon, Line } from '../styledComponets/SocialIconsStyle';
+import {DarkTheme} from '../componenets/Themes'
 
-const SocialIcons = () => {
+const SocialIcons = (props) => {
   return (
-        <>
-            <Icons>
-                <div>
-                <GitHubIcon />
-                </div>
-                <div>
-                <FacebookIcon />
-                </div>
-                <div>
-                <InstagramIcon />
-                </div>
-                <Line />
-            </Icons>
-        </>
-      )
+        <Icons>
+            <div>
+              <GitHubIcon fill={props.them === 'dark' ? DarkTheme.text : DarkTheme.body }/>
+            </div>
+            <div>
+              <FacebookIcon fill={props.them === 'dark' ? DarkTheme.text : DarkTheme.body }/>
+            </div>
+            <div>
+              <InstagramIcon fill={props.them === 'dark' ? DarkTheme.text : DarkTheme.body }/>
+            </div>
+              <Line color={props.theme} />
+        </Icons>
+  )
 };
 
 export default SocialIcons;
