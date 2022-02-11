@@ -4,7 +4,7 @@ import {Logo} from '../styledComponets/LogoStyle';
 const LogoStyle = (props) => {
   return (
   <Logo color={props.theme}>
-      CL
+      CQ
   </Logo>
   )
 };

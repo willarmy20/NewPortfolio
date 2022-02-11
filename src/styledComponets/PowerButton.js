@@ -21,6 +21,12 @@ cursor: pointer;
     background-color: rgba(0,255,0,0.4);
     box-shadow: 0 0 8px 6px;
 }
+
+
+&>*:first-child{
+    text-decoration: none;
+    color: inherit;
+}
 `
 
 export const PowerIcon = styled(PowerOff)`

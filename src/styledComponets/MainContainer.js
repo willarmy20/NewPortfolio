@@ -14,7 +14,7 @@ h2,h3,h4,h5,h6{
 }
 `
 
-export const Container =styled.div`
+export const Container = styled.div`
 padding: 2rem;
 `
 
@@ -99,7 +99,7 @@ transition: all 1s ease;
 }
 
 &>:last-child{
-    display: ${props => props.click ? 'none' : 'inline-block'}
+    display: ${props => props.click ? 'none' : 'inline-block'};
     padding-top: 1rem;
 }
 `

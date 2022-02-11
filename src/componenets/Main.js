@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { motion } from 'framer-motion'
 import {Container, MainContainer, Contact, BLOG, WORK, BottomBar, ABOUT, SKILLS, Center, MyLogo, DarkDiv} from '../styledComponets/MainContainer'
 import Logo from './Logo';
 import PowerButton from './PowerButton';
@@ -30,34 +31,89 @@ const Main = () => {
                 <span>click here</span>
             </Center>
             <Contact to= '#'>
-                <h2>
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition:{type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: {type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale:1.1}}
+                whileTap={{scale:0.9}}
+                >
                     Say hi..
-                </h2>
+                </motion.h2>
             </Contact>
             <BLOG to= '/blog'>
-                <h2>
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition:{type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: {type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale:1.1}}
+                whileTap={{scale:0.9}}
+                >
                     Blog
-                </h2>
+                </motion.h2>
             </BLOG>
-            <WORK to='/work' click={click}>
-                <h2>
-                    PROJECTS
-                </h2>
+            <WORK to='/work' click={+click}>
+            <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                >
+                    Projects
+                </motion.h2>
             </WORK>
             <BottomBar>
-            <ABOUT to='/about' click={click}>
-                <h2>
-                    ABOUT
-                </h2>
+            <ABOUT to='/about' click={+click}>
+            <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                >
+                    About
+                </motion.h2>
             </ABOUT>
             <SKILLS to='/skills'>
-                <h2>
-                    My SKILLS
-                </h2>
+            <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                >
+                    Skills
+                </motion.h2>
             </SKILLS>
             </BottomBar>
         </Container>
-        {click ? <Intro click={click}/> : null}
+        {click ? <Intro click={click} /> : null}
     </MainContainer>
     )
 };
