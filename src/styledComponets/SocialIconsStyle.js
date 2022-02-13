@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Github} from '@styled-icons/boxicons-logos/Github'
 import {FacebookCircle} from '@styled-icons/boxicons-logos/FacebookCircle'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
-import { DarkTheme } from '../componenets/Themes'
+import { themes } from '../componenets/Themes'
 import { motion } from 'framer-motion'
 
 export const Icons = styled.div`
@@ -35,5 +35,5 @@ width: 10%;
 export const Line = styled(motion.span)`
 width: 2px;
 height: 8rem;
-background-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body };
+background-color: ${props => props.color === 'dark' ? themes.DarkTheme.text : themes.DarkTheme.body };
 `

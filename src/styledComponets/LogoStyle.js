@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { DarkTheme } from '../componenets/Themes'
+import { themes } from '../componenets/Themes'
 
 export const Logo = styled.h1`
 display: inline-block;
-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
+color: ${props => props.color === 'dark' ? themes.DarkTheme.text : themes.DarkTheme.body};
 font-family: 'Pacifico',cursive; 
 position: fixed;
 left: 2rem;
