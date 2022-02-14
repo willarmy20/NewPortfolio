@@ -8,7 +8,7 @@ import Main from './componenets/Main';
 import AboutPage from './componenets/AboutPage';
 import BlogPage from './componenets/BlogPage';
 import MySkillPage from './componenets/MySkillPage';
-import WorkPage from './componenets/WorkPage';
+import ProjectPage from './componenets/ProjectPage';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route path="about" element={<AboutPage />} />
       <Route path="blog" element={<BlogPage />} />
       <Route path="skills" element={<MySkillPage />} />
-      <Route path="work" element={<WorkPage />} />
+      <Route path="projects" element={<ProjectPage />} />
     </Routes>
     </ThemeProvider>
     <GlobalStyle />

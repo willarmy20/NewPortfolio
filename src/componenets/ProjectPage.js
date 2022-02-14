@@ -1,7 +1,7 @@
 import React from 'react';
-import {Box, ProjectBox} from '../styledComponets/ProjectsStyle';
+import {Box, ProjectBox, ProjectTitle} from '../styledComponets/ProjectsStyle';
 import SocialIcons from './SocialIcons';
-import PowerButton from '../componenets/PowerButton'
+import PowerButton from './PowerButton'
 import LogoStyle from './Logo';
 import Card from './Card';
 import { Work } from "../data/WorkData";
@@ -9,7 +9,7 @@ import { Work } from "../data/WorkData";
 
 
 
-const WorkPage = () => {
+const ProjectPage = () => {
     return (
         <Box>
             <LogoStyle theme='dark'  />
@@ -22,8 +22,11 @@ const WorkPage = () => {
                         )
                     } 
             </ProjectBox>
+            <ProjectTitle theme='light'>
+                Projects
+            </ProjectTitle> 
         </Box>
     )
 };
 
-export default WorkPage;
+export default ProjectPage;

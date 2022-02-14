@@ -39,3 +39,14 @@ overflow-y: scroll;
     grid-row-gap: 30px;
 }
 `
+
+export const ProjectTitle = styled.h1`
+position: absolute;
+top: 80%;
+left: 70%;
+width: 100%;
+height: 100%;
+opacity: 0.6;
+color: #FFD700;
+font-size: 600%;
+`
