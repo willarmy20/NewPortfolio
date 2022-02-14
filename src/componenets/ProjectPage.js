@@ -22,9 +22,9 @@ const ProjectPage = () => {
                         )
                     } 
             </ProjectBox>
-            <ProjectTitle theme='light'>
+            {/* <ProjectTitle theme='light'>
                 Projects
-            </ProjectTitle> 
+            </ProjectTitle>  */}
         </Box>
     )
 };
