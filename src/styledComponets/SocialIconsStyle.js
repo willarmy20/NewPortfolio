@@ -18,6 +18,7 @@ z-index:3;
 }
 `
 export const GitHubIcon = styled(Github)`
+color: ${props => props.color === 'dark' ? themes.DarkTheme.text : themes.DarkTheme.body};
 height:10%;
 width: 10%;
 
