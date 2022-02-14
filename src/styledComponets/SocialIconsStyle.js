@@ -13,19 +13,30 @@ position: fixed;
 bottom: 0;
 left: 2rem;
 z-index:3;
+fill: white;
 &>*:not(:last-child){
     margin: 0.5rem 0;
+}
+@media (max-width: 390px) and (max-width:412px){
+    fill: blue;
+    left:1px;
+    bottom: -124px;
+}
+@media (max-width:820px){
+    fill: blue;
+    left:1px;
+    bottom: -124px;
 }
 `
 export const GitHubIcon = styled(Github)`
 color: ${props => props.color === 'dark' ? themes.DarkTheme.text : themes.DarkTheme.body};
 height:10%;
 width: 10%;
-
 `
 export const FacebookIcon = styled(FacebookCircle)`
 height:10%;
 width: 10%;
+
 `
 
 export const InstagramIcon = styled(Instagram)`

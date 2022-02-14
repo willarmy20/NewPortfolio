@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Description, Title, Footer, Link, Git, Img}from '../styledComponets/CardStyle';
+import {Box, Description, Title, Footer, Git, Img, Links}from '../styledComponets/CardStyle';
 import {GitHub} from '../styledComponets/CardStyle';
 
 
@@ -14,10 +14,10 @@ const Card = ({projects}) =>{
                 {projects.description}
             </Description>
             <Footer>
-                <Link to={`${projects.demo}`} target="_blank">
+                <Links href={projects.demo} target="_blank">
                     Visit
-                </Link>
-                <Git to={{pathname: `${projects.github}`}} target="_blank">
+                </Links>
+                <Git href={projects.github} target="_blank">
                     <GitHub />
                 </Git>
             </Footer>

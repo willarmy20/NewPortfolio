@@ -9,5 +9,11 @@ position: fixed;
 left: 2rem;
 top: 2rem;
 z-index:3;
+@media (max-width: 390px) and (max-width:412px){
+   color:Blue;
+}
+@media (max-width:820px){
+   color: Blue;
+}
 `
 

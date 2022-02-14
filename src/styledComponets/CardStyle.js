@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import {Github} from '@styled-icons/boxicons-logos/Github'
 
@@ -22,7 +21,6 @@ transition: all 0.2s ease;
 background-color: ${props => props.theme.body};
 color:${props => props.theme.text};
 border: 1px solid ${props => props.theme.text};
-}
 `
 export const Title = styled.h2`
 font-size: calc(1em + 0.5vw);
@@ -36,13 +34,21 @@ font-weight: 500;
 export const Img = styled.img`
 height: 15vh;
 width: 18vw;
+@media (max-width: 390px) and (max-width:412px){
+    height:17vh;
+    width: 60vw;
+}
+@media (max-width:820px){
+    height:25vh;
+    width: 32vw;
+}
 `
 export const Footer = styled.footer`
 display: flex;
 justify-content: space-between;
 `
 
-export const Link = styled(NavLink)`
+export const Links = styled.a`
 background-color: black;
 color: white;
 text-decoration: none;
@@ -55,7 +61,7 @@ ${Box}:hover &{
 }
 `
 
-export const Git = styled(NavLink)`
+export const Git = styled.a`
 color: inherit;
 text-decoration: none;
 ${Box}:hover &{

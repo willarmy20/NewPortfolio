@@ -12,6 +12,8 @@ h2,h3,h4,h5,h6{
     font-family:'Karia', sans-serif;
     font-weight:500
 }
+
+
 `
 
 export const Container = styled.div`
@@ -27,6 +29,12 @@ top: 2rem;
 float: right;
 text-decoration: none;
 z-index: 1;
+@media (max-width: 390px) and (max-width:412px){
+    margin-top: -390px;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
 `
 export const BLOG = styled(Link)`
 color:${props => props.theme.text};
@@ -47,6 +55,10 @@ left: 2rem;
 text-decoration: none;
 z-index: 1;
 transform:  translate(-50%, -50%) rotate(-90deg);
+@media (max-width: 390px) and (max-width:412px){
+    color: black;
+    cursor: pointer;
+}
 `
 export const BottomBar = styled.div`
 position: absolute;
@@ -62,6 +74,9 @@ export const ABOUT = styled(Link)`
 color:${props => props.click ? props.theme.body : props.theme.text};
 text-decoration: none;
 z-index: 1;
+@media (max-width: 390px) and (max-width:412px){
+    color: black;
+}
 `
 
 export const SKILLS = styled(Link)`
@@ -119,6 +134,10 @@ width:${props => props.click ? '50%' : '0%'};
 height: ${props => props.click ? '100%' : '0%'};
 z-index: 1;
 transition: height 0.5s ease, width 1s ease 0.5s;
+@media (max-width: 390px) and (max-width:412px){
+    width:500px;
+    height: 379px;
+}
 
 `
 
