@@ -62,7 +62,7 @@ const Main = () => {
                     Blog
                 </motion.h2>
             </BLOG>
-            <WORK to='/work' click={+click}>
+            <WORK to='/project' click={+click}>
             <motion.h2
                 initial={{
                     y:-200,

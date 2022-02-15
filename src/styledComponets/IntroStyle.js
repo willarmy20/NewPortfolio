@@ -47,6 +47,8 @@ display: flex;
         bottom: unset;
         top: 70%;
         left: -5%;
+        width: 300px;
+        height:390px
     }
 }
 @media (max-width: 390px) and (max-width:412px){
@@ -69,7 +71,7 @@ flex-direction: column;
     font-size: calc(0.5rem + 1.5vw);
     font-weight:50;
     @media (max-width: 390px) and (max-width:412px){
-        font-size: calc(0.6rem + 3.0vw);
+        font-size:19px;
         font-weight: 2vw;
         color: blue;
     }
@@ -84,5 +86,6 @@ flex-direction: column;
 export const Greeting = styled.div`
 font-size: 2rem;
 @media (max-width: 390px) and (max-width:412px){
+    font-size: 34px;
 }
 `

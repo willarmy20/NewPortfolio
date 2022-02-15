@@ -19,7 +19,7 @@ function App() {
       <Route path="about" element={<AboutPage />} />
       <Route path="blog" element={<BlogPage />} />
       <Route path="skills" element={<MySkillPage />} />
-      <Route path="projects" element={<ProjectPage />} />
+      <Route path="project" element={<ProjectPage />} />
     </Routes>
     </ThemeProvider>
     <GlobalStyle />

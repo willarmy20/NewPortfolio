@@ -34,13 +34,9 @@ font-weight: 500;
 export const Img = styled.img`
 height: 15vh;
 width: 18vw;
-@media (max-width: 390px) and (max-width:412px){
+@media (max-width: 390px){
     height:17vh;
     width: 60vw;
-}
-@media (max-width:820px){
-    height:25vh;
-    width: 32vw;
 }
 `
 export const Footer = styled.footer`
@@ -52,7 +48,7 @@ export const Links = styled.a`
 background-color: black;
 color: white;
 text-decoration: none;
-padding:0.5rem calc(2rem + 2vw);
+padding:0.6rem calc(2rem + 2vw);
 border-radius: 0 0 0 50px;
 font-size:calc(1em + 0.5vw);
 ${Box}:hover &{

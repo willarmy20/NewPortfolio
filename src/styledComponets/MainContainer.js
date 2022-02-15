@@ -57,7 +57,7 @@ z-index: 1;
 transform:  translate(-50%, -50%) rotate(-90deg);
 @media (max-width: 390px) and (max-width:412px){
     color: black;
-    cursor: pointer;
+    padding: 2rem;
 }
 `
 export const BottomBar = styled.div`
@@ -68,6 +68,7 @@ right:0;
 width: 100%;
 display: flex;
 justify-content: space-evenly;
+z-index:3;
 `
 
 export const ABOUT = styled(Link)`
@@ -76,6 +77,7 @@ text-decoration: none;
 z-index: 1;
 @media (max-width: 390px) and (max-width:412px){
     color: black;
+    bottom: 4rem;
 }
 `
 

@@ -23,34 +23,42 @@ position: absolute;
     margin: auto;
     width: 300px;
     height: 300px;
+    @media (max-width: 390px) and (max-width:412px){
+        height: 200px;
+        width: 200px;
+    }
 `
 
 export const HtmlIcon = styled(Html5)`
 color: red;
 height:10%;
 width: 10%;
+
 `
 
 export const CssIcon = styled(LogoCss3)`
 color: brown;
 height: 10%;
 width: 10%;
+
 `
 
 export const JavaScriptIcon = styled(Javascript)`
 color: green;
 height: 10%;
 width: 10%;
+
 `
 
 export const RIcons = styled(ReactLogo)`
 color: blue;
 height: 10%;
 width: 10%;
+
 `
 
 export const Postgress = styled(Postgresql)`
-color: blue;
+color: black;
 height: 10%;
 width: 10%;
 `
@@ -59,5 +67,7 @@ display: flex;
 justify-content: space-evenly;
 margin-top: -360px;
 margin-left: 100px;
-
+@media (max-width: 390px) and (max-width:412px){
+    margin-left: -20px;
+}
 `

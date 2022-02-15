@@ -6,6 +6,8 @@ width: 100vw;
 height:100vh;
 position: relative;
 overflow: hidden;
+@media (max-width: 390px) and (max-width:412px){
+}
 `
 
 
@@ -34,7 +36,11 @@ color: yellow;
 backdrop-filter: blur(4px);
 font-family: 'Ubutntu Mono', monospace;
 font-style: italic;
-box-shadow: 5px 10px #0000FF
+box-shadow: 5px 10px #0000FF;
+@media (max-width: 390px) and (max-width:412px){
+    font-size: 16px;
+    height: 400px;
+}
 `
 
 export const WhatsUp = styled.img`
@@ -58,6 +64,10 @@ animation: ${float} 4s ease infinite;
 img{
     width: 100%;
     height: auto;
+    @media (max-width: 390px) and (max-width:412px){
+        height: 350px;
+        width: 130px;
+    }
 }
 `
 
@@ -70,4 +80,9 @@ height: 100%;
 opacity: 0.6;
 color: #FFD700;
 font-size: 600%;
+@media (max-width: 390px) and (max-width:412px){
+    left:150px;
+    margin-top: 90px;
+    font-size: 70px;
+}
 `

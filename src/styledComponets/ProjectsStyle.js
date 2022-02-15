@@ -28,25 +28,18 @@ overflow-y: scroll;
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
-    margin-left: 26px;
+    margin-left: 23px;
     grid-row-gap: 20px;
-}
-@media (max-width:820px){
-    display: grid;
-    grid-template-columns: 47.5% 47.5%;
-    padding: 0;
-    margin-left: 70px;
-    grid-row-gap: 30px;
 }
 `
 
-// export const ProjectTitle = styled.h1`
-// position: absolute;
-// top: 80%;
-// left: 70%;
-// width: 100%;
-// height: 100%;
-// opacity: 0.6;
-// color: #FFD700;
-// font-size: 600%;
-// `
+export const ProjectTitle = styled.h1`
+position: absolute;
+top: -1%;
+left: 60%;
+width: 100%;
+height: 100%;
+opacity: 0.6;
+color: #FFD700;
+font-size: 600%;
+`

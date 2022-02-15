@@ -19,13 +19,8 @@ fill: white;
 }
 @media (max-width: 390px) and (max-width:412px){
     fill: blue;
-    left:1px;
-    bottom: -124px;
-}
-@media (max-width:820px){
-    fill: blue;
-    left:1px;
-    bottom: -124px;
+    left: 1px;
+    margin-bottom: -130px;
 }
 `
 export const GitHubIcon = styled(Github)`
