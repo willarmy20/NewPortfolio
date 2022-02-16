@@ -53,8 +53,9 @@ The Blog Section is where I will link some of my blogs where I will let you dive
 </p>
 
 ## <p align="center"> Stretch Goals (Future)</p>
-- Be able to link it to my blog site. 
-- Be able to have a dark and light button and it changes on every page. 
+  
+<p aling="center"> - Be able to link it to my blog site. 
+  - Be able to have a dark and light button and it changes on every page. </p>
 
 
 ## <p align="center"> Developer team</p>
