@@ -11,7 +11,6 @@ flex-direction: column;
 align-items: center;
 position: fixed;
 bottom: 0;
-left: 2rem;
 z-index:3;
 fill: white;
 &>*:not(:last-child){
