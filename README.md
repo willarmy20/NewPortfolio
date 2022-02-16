@@ -1,4 +1,4 @@
-# <p align="center"> Rod Wave Music site</p>
+# <p align="center"> My Portfolio</p>
 <p align="center"><a href="https://blooming-journey-57634.herokuapp.com/">Live Demo</a></p>
 
 Welcome to My Portfolio! This is my portfolio of me CoderQue. I design and code simple beautfuil websites. You can check out my projects and even check out my blod site thats coming soon. I imported animation to make this site fun. I hope you enjoy.
@@ -19,14 +19,28 @@ This section of my Profile shows projects that I have created by using React, No
   <img width="750" alt="cipart" src="/public/images/projects.png">
 </p>
 
+
+## <p align="center"> About</p>
+This section of my Profile is about me. Just gives you a quick intro about myself. 
+  
+<p align="center">
+  <img width="750" alt="cipart" src="/public/images/AboutMePage.png">
+</p>
+
+
+## <p align="center"> Skills</p>
+This section of my Profile shows the skills I know and code in. Im still learning and will be updating on these skills as much as I can.
+<p align="center">
+  <img width="750" alt="cipart" src="/public/images/SkillsPage.png">
+</p>
+
 ## <p align="center"> Blog</p>
 The Blog Section is where I will link some of my blogs where I will let you dive deep into things I care about and things that instrest me. Coming Soon!!
 
 
 ## <p align="center"> Tech Stack </p>
 
-<p align="center">- Front-end:</p> <p align="center"> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <p>
-<p align="center">- Back-end:</p> <p align="center"> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>  <p>
+<p align="center">- Front-end:</p> <p align="center"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank"> <img <p>
 
 
 
@@ -45,6 +59,6 @@ The Blog Section is where I will link some of my blogs where I will let you dive
 
 ## <p align="center"> Developer team</p>
 
-LaQuinta-[willarmy20](https://github.com/willarmy20)
+  <p align="center"> LaQuinta-[willarmy20](https://github.com/willarmy20)</p>
 
 
