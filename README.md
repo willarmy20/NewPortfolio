@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# <p align="center"> Rod Wave Music site</p>
+<p align="center"><a href="https://blooming-journey-57634.herokuapp.com/">Live Demo</a></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to My Portfolio! This is my portfolio of me CoderQue. I design and code simple beautfuil websites. You can check out my projects and even check out my blod site thats coming soon. I imported animation to make this site fun. I hope you enjoy.
+<p align ="center" >
+<img width="750" alt="" src="/public/images/IntroLandingPage.png">
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+## <p align="center"> Home</p>
+This just give you a little bit of information about me and shows you all the different links that are available on my website.
+<img width="1000" alt="about us" src="/public/images/MeOnLandingPage.png">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## <p align="center"> Projects</p>
+This section of my Profile shows projects that I have created by using React, Nodejs, Javascript, and even some of the projects have a backend where I used Postgress. 
+  
+<p align="center">
+  <img width="750" alt="cipart" src="/public/images/projects.png">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## <p align="center"> Blog</p>
+The Blog Section is where I will link some of my blogs where I will let you dive deep into things I care about and things that instrest me. Coming Soon!!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <p align="center"> Tech Stack </p>
 
-### `npm run build`
+<p align="center">- Front-end:</p> <p align="center"> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <p>
+<p align="center">- Back-end:</p> <p align="center"> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>  <p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <p align="center"> MVP</p>
+<p aling="center">
+-  React.js
+- Hosted
+- Must be responsive
+- Links/resources
+</p>
 
-### `npm run eject`
+## <p align="center"> Stretch Goals (Future)</p>
+- Be able to link it to my blog site. 
+- Be able to have a dark and light button and it changes on every page. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <p align="center"> Developer team</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+LaQuinta-[willarmy20](https://github.com/willarmy20)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
