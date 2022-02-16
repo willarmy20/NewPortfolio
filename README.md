@@ -19,6 +19,21 @@ This section of my Profile shows projects that I have created by using React, No
   <img width="750" alt="cipart" src="/public/images/projects.png">
 </p>
 
+
+## <p align="center"> About</p>
+This section of my Profile is about me. Just gives you a quick intro about myself. 
+  
+<p align="center">
+  <img width="750" alt="cipart" src="/public/images/AboutMePage.png">
+</p>
+
+
+## <p align="center"> Skills</p>
+This section of my Profile shows the skills I know and code in. Im still learning and will be updating on these skills as much as I can.
+<p align="center">
+  <img width="750" alt="cipart" src="/public/images/SkillsPage.png">
+</p>
+
 ## <p align="center"> Blog</p>
 The Blog Section is where I will link some of my blogs where I will let you dive deep into things I care about and things that instrest me. Coming Soon!!
 
@@ -44,6 +59,6 @@ The Blog Section is where I will link some of my blogs where I will let you dive
 
 ## <p align="center"> Developer team</p>
 
-LaQuinta-[willarmy20](https://github.com/willarmy20)
+  <p align="center"> LaQuinta-[willarmy20](https://github.com/willarmy20)</p>
 
 
