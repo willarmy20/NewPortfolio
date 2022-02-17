@@ -1,5 +1,5 @@
 # <p align="center"> My Portfolio</p>
-<p align="center"><a href="https://blooming-journey-57634.herokuapp.com/">Live Demo</a></p>
+<!-- <p align="center"><a href="https://blooming-journey-57634.herokuapp.com/">Live Demo</a></p> -->
 
 Welcome to My Portfolio! This is my portfolio of me CoderQue. I design and code simple beautfuil websites. You can check out my projects and even check out my blod site thats coming soon. I imported animation to make this site fun. I hope you enjoy.
 <p align ="center" >
@@ -53,8 +53,9 @@ The Blog Section is where I will link some of my blogs where I will let you dive
 </p>
 
 ## <p align="center"> Stretch Goals (Future)</p>
-- Be able to link it to my blog site. 
-- Be able to have a dark and light button and it changes on every page. 
+  
+<p aling="center"> - Be able to link it to my blog site. 
+  - Be able to have a dark and light button and it changes on every page. </p>
 
 
 ## <p align="center"> Developer team</p>
