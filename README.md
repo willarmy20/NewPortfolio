@@ -1,5 +1,5 @@
 # <p align="center"> My Portfolio</p>
-<p align="center"><a href="https://main.d3ba1e28npa2i5.amplifyapp.com/>Live Demo</a></p>
+<p align="center"><a href="https://main.d3ba1e28npa2i5.amplifyapp.com/">Live Demo</a></p>
 
 Welcome to My Portfolio! This is my portfolio of me CoderQue. I design and code simple beautfuil websites. You can check out my projects and even check out my blod site thats coming soon. I imported animation to make this site fun. I hope you enjoy.
 <p align ="center" >
