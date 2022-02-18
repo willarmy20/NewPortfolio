@@ -29,6 +29,15 @@ background: linear-gradient(
         border-right: 3px solid black;
         padding:1rem;
     }
+    @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+        top: 350px;
+        width: 250px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid black;
+        border-left: 2px solid white;
+        border-right: 3px solid black;
+        padding:1rem;
+    }
 `
 
 export const SubBox = styled.div`
