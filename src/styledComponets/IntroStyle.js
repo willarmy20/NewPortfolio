@@ -65,6 +65,13 @@ display: flex;
     margin-top:-10%;
 }
 
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+    bottom: unset;
+    top: 70%;
+    left: -5%;
+    width: 300px;
+    height:390px
+}
 `
 
 export const Text = styled.div`
