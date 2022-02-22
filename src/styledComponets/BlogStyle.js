@@ -2,6 +2,9 @@ import styled from "styled-components";
 import Desks from '../assets/desk.png';
 
 
+
+
+
 export const Container = styled.div`
 positon: relative;
 background-image: url(${Desks});
@@ -12,12 +15,16 @@ background-repeat: no-repeat;
 `
 export const SoonDiv = styled.div`
 position: absolute;
-top: 50%;
+top: 40%;
 left: 35%;
 margin: -25px 0 0 -25px; 
 font-size: 30px
-
 `
+export const TitleTwo = styled.h1`
+font-family: Redressed;
+text-align: center;
+`
+
 
 export const CountdownTimer = styled.div`
 display: flex;
