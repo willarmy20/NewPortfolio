@@ -22,13 +22,13 @@ export const Work = [
     },
     {
         id:3,
-        artwork: ["/images/LOGO2.png"],
-        name:"Game Lounge",
-        description:"Game Lounge is a Reddit Clone made in Node js. This is where you can talk about about anything. Its all about being positive.",
+        artwork: ["/images/vinoblak.png"],
+        name:"VinoBlak Photography",
+        description:"VinoBlak Photography is a upcoming photographer and this site is his portfolio of his work for new clients.",
         tags:["react","gsap","styledComponents"],
         
-        demo:"https://evening-shelf-23921.herokuapp.com/",
-        github:"https://github.com/willarmy20/blogProject"
+        demo:"https://vinoblakphotography.netlify.app/",
+        github:"https://github.com/willarmy20/vinoBlak_Photography"
     },
     {
         id:4,
